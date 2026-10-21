@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Trackpad
+
+- New `[swipe]`: with `enabled = true`, the trackpad swipe that switches Spaces moves along a scrolling workspace's columns first, as in niri, and switches Space only past the last column. `space-switch = 'instant'` (the default) switches with dinky's fast switch once your fingers lift; `'native'` leaves that swipe to macOS, whose Spaces slide with your fingers. Workspaces that aren't scrolling keep macOS's swipe.
+
 ## 0.23
 
 ### Configuration
