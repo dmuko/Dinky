@@ -132,6 +132,7 @@ struct SchemaTests {
         [swipe]
         enabled = true
         space-switch = 'native'
+        vertical = true
 
         [animations]
         enabled = true
